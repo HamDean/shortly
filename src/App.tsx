@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <div className="mx-32">
+        <Navbar />
+      </div>
     </>
   );
 }
