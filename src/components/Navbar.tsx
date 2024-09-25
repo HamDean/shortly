@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex flex-row justify-between mt-5">
+      <nav className="flex flex-row justify-between mt-5 md:max-w-[1108px] mx-5 md:mx-20 lg:mx-32">
         <div className="flex flex-row gap-10 md:gap-5 items-center">
           <img src={logo} alt="image of our logo" />
 
