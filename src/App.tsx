@@ -1,3 +1,4 @@
+import Boost from "./components/Boost";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -8,6 +9,7 @@ function App() {
         <Navbar />
         <main className="mt-24">
           <Hero />
+          <Boost />
         </main>
       </div>
     </>

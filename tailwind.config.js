@@ -8,6 +8,9 @@ export default {
     extend: {
       screens: {
         'semimd' : '866px'
+      },
+      backgroundImage : {
+        'boostmob' : "url('./src/assets/bg-boost-desktop.svg')"
       }
     },
   },
