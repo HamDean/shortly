@@ -2,8 +2,8 @@ import heroImage from "../assets/illustration-working.svg";
 
 const Hero = () => {
   return (
-    <section className="">
-      <div className="flex flex-col-reverse lg:flex-row justify-center md:justify-between items-center md:max-w-[1108px] mx-5 md:mx-20 lg:mx-32">
+    <section className="bg-white">
+      <div className="flex flex-col-reverse pt-[80px] pb-36  lg:flex-row justify-center md:justify-between items-center md:max-w-[1108px] mx-5 md:mx-20 lg:mx-32">
         {/* Text Section */}
         <article className="flex flex-col gap-4 text-center items-center lg:items-start lg:text-left lg:h-[350px]">
           <h1 className="text-[42px] md:text-[65px] lg:text-[80px] font-extrabold leading-[45px] md:leading-[90px] tracking-[-1.05px] md:tracking-[-2px] text-[#34313D]">

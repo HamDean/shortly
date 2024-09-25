@@ -1,6 +1,6 @@
 const Boost = () => {
   return (
-    <section className="bg-[#F2F2F2] pb-32">
+    <section className="relative bottom-40">
       <div className="md:max-w-[1108px] mx-5 md:mx-20 lg:mx-32 flex flex-col gap-3 lg:gap-0 lg:flex-row bg-boostmob bg-[#3A3054] rounded-lg mt-20 p-5 lg:px-[64px] lg:py-[54px] lg:justify-between">
         <input
           type="text"

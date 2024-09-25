@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="overflow-hidden">
         <Navbar />
-        <main className="mt-24">
+        <main className="">
           <Hero />
           <Boost />
           <Stats />
