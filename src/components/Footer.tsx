@@ -6,9 +6,9 @@ import x from "../assets/icon-twitter.svg";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#232127]">
+    <footer className=" bg-[#232127] pb-36">
         
-      <div className="footer text-base-content p-10 flex flex-col md:flex-row flex-wrap  items-center md:items-start justify-center md:justify-between md:max-w-[1108px] mx-5 md:mx-20 lg:mx-32">
+      <div className="footer text-base-content p-10 flex flex-col md:flex-row flex-wrap  items-center md:items-start justify-center md:justify-between md:max-w-[1108px]">
       <img src={logo} alt="Logo" className="filter invert" />
       <nav>
         <h4 className="footer-title">Features</h4>

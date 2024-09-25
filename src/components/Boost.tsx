@@ -1,17 +1,10 @@
 const Boost = () => {
   return (
-    <section className="relative bottom-40">
-      <div className="md:max-w-[1108px] mx-5 md:mx-20 lg:mx-32 flex flex-col gap-3 lg:gap-0 lg:flex-row bg-boostmob bg-[#3A3054] rounded-lg mt-20 p-5 lg:px-[64px] lg:py-[54px] lg:justify-between">
-        <input
-          type="text"
-          placeholder="Shorten a link here..."
-          className="px-4 lg:px-[32px] bg-white py-1 lg:py-[14px] h-[48px] lg:h-[64px] rounded-lg outline-none text-gray-700 lg:w-full lg:mr-[24px]"
-        />
-
-        <button className="bg-[#2BD0D0] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all px-3 py-1 h-[48px] lg:w-[188px] lg:h-[64px] rounded-lg">
-          Shorten it!
-        </button>
-      </div>
+    <section className="bg-boostmob h-[300px] mt-32 lg:h-[250px] bg-[#3A3054] text-white flex flex-col items-center justify-center">
+      <h4 className="text-[24px] font-bold mb-4">Boost your links today</h4>
+      <button className="mx-[40px] my-[14px] rounded-full mt-2 bg-[#2BD0D0] text-center text-nowrap w-[197px] h-[40px] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all">
+        Get Started
+      </button>
     </section>
   );
 };
