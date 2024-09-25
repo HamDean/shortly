@@ -2,11 +2,14 @@ interface Props {
   cardImage: string;
   title: string;
   tag: string;
+  modify?: string;
 }
 
-const Media = ({ cardImage, title, tag }: Props) => {
+const Media = ({ cardImage, title, tag, modify }: Props) => {
   return (
-    <div className="w-[280px] h-[267px] bg-white rounded-lg flex flex-col items-center px-[32px] py-[41px] relative">
+    <div
+      className={`w-[280px] h-[267px] bg-white rounded-lg flex flex-col items-center px-[32px] py-[41px] relative ${modify}`}
+    >
       <div className="bg-[#3A3054] w-[88px] h-[88px] rounded-full flex flex-col items-center justify-center absolute bottom-56">
         <img
           src={cardImage}
