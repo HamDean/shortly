@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.footer-title {
+    @apply text-white font-bold text-lg capitalize
+}
+
+.link {
+    @apply text-[#BFBFBF]
+}
+
+nav a, nav h4 {
+    @apply justify-self-center md:justify-self-start
+}
+
+nav img {
+    @apply cursor-pointer
+}

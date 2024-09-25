@@ -14,7 +14,7 @@ const Hero = () => {
             links are performing.
           </p>
 
-          <button className="btn  btn-primary mx-auto lg:mx-0 rounded-full mt-2 bg-[#2BD0D0] text-center text-nowrap w-[200px] h-[40px] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all">
+          <button className="mx-auto lg:mx-0 rounded-full mt-2 bg-[#2BD0D0] text-center text-nowrap w-[200px] h-[40px] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all">
             Get Started
           </button>
         </article>

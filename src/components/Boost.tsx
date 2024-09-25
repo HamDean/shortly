@@ -5,10 +5,10 @@ const Boost = () => {
         <input
           type="text"
           placeholder="Shorten a link here..."
-          className="input border-none px-4 lg:px-[32px] py-1 lg:py-[14px] h-[48px] lg:h-[64px] rounded-lg outline-none text-gray-700 lg:w-full lg:mr-[24px]"
+          className="px-4 lg:px-[32px] bg-white py-1 lg:py-[14px] h-[48px] lg:h-[64px] rounded-lg outline-none text-gray-700 lg:w-full lg:mr-[24px]"
         />
 
-        <button className="btn btn-primary bg-[#2BD0D0] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all px-3 py-1 h-[48px] lg:w-[188px] lg:h-[64px] rounded-lg">
+        <button className="bg-[#2BD0D0] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all px-3 py-1 h-[48px] lg:w-[188px] lg:h-[64px] rounded-lg">
           Shorten it!
         </button>
       </div>

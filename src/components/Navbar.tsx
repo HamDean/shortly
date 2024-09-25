@@ -27,11 +27,11 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex flex-row gap-7">
-            <button className="btn btn-outline-primary md:hidden semimd:block text-[#9E9AA8] hover:text-gray-500 font-semibold text-lg transition-all">
+            <button className="md:hidden semimd:block text-[#9E9AA8] hover:text-gray-500 font-semibold text-lg transition-all">
               Login
             </button>
 
-            <button className="btn btn-primary rounded-full bg-[#2BD0D0] w-[100px] h-[40px] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all">
+            <button className="rounded-full bg-[#2BD0D0] w-[100px] h-[40px] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all">
               Sign Up
             </button>
           </div>
@@ -64,11 +64,11 @@ const NavbarMobile = () => {
       <hr className="border-gray-500 opacity-50 w-[85%]" />
 
       <div className="flex flex-col gap-7 w-[85%]">
-        <button className="btn btn-outline-primary w-full text-white hover:text-gray-500 font-semibold text-lg transition-all">
+        <button className="w-full text-white hover:text-gray-500 font-semibold text-lg transition-all">
           Login
         </button>
 
-        <button className="btn btn-primary rounded-full w-full bg-[#2BD0D0] h-[40px] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all">
+        <button className="rounded-full w-full bg-[#2BD0D0] h-[40px] text-white font-semibold text-lg hover:bg-[#9AE3E3] transition-all">
           Sign Up
         </button>
       </div>
