@@ -1,4 +1,4 @@
-import { useState } from "react";
+import useCopyToClipboard from "../hooks/useCopyToClipboard";
 
 interface Props {
   originalLink: string;
@@ -6,11 +6,12 @@ interface Props {
 }
 
 const ShortLink = ({ originalLink, shortenedLink }: Props) => {
-  const [isCopied, setCopy] = useState(false);
-
+  const { isCopied, copyToClipboard, setIsCopied } = useCopyToClipboard();
   const handleCopy = () => {
-    setCopy(true);
-    setTimeout(() => setCopy(false), 2000);
+    copyToClipboard(shortenedLink);
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 3000);
   };
 
   return (
