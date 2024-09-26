@@ -1,43 +1,8 @@
-import { useState } from "react";
-import axios from "axios";
 import ShortLink from "./ShortLink";
-
-interface UrlList {
-  originalUrl: string;
-  shortenedUrl: string;
-}
+import useLinks from "../hooks/useLinks";
 
 const Shortener = () => {
-  const [url, setUrl] = useState("");
-  const [urlList, setUrlList] = useState<UrlList[]>([]);
-
-  const getShortenedLink = async (originalURL: string) => {
-    const options = {
-      method: "POST",
-      url: "https://api.short.io/links",
-      headers: {
-        accept: "application/json",
-        "content-type": "application/json",
-        Authorization: "sk_fX7tYooZguPcsu3u",
-      },
-      data: {
-        originalURL: originalURL,
-        domain: "gfty.short.gy",
-      },
-    };
-
-    if (originalURL) {
-      try {
-        const response = await axios.request(options);
-        setUrlList((prevUrlList) => [
-          ...prevUrlList,
-          { originalUrl: originalURL, shortenedUrl: response.data.shortURL },
-        ]);
-      } catch (error) {
-        console.error(error);
-      }
-    }
-  };
+  const { setUrl, url, getShortenedLink, urlList} = useLinks()
 
   return (
     <>
