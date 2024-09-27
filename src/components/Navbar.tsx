@@ -49,7 +49,7 @@ const Navbar = () => {
 
 const NavbarMobile = () => {
   return (
-    <div className="bg-[#3A3054] md:hidden px-2 py-7 rounded-md mt-4 flex flex-col gap-5 items-center">
+    <div className="bg-[#3A3054] md:hidden px-2 py-7 rounded-md mt-4 flex flex-col gap-5 absolute w-[80vw] z-50 left-[10%] items-center">
       <ul className="flex flex-col justify-between items-center gap-3 text-white text-lg ">
         {navList.map((item, index) => (
           <li
