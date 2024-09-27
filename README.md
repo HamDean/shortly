@@ -15,8 +15,6 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -50,7 +48,6 @@ Users should be able to:
 - axios for data fetching 
 - [React](https://reactjs.org/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 I learnt how to work with pasting to clipboard using the navigator API. I also learnt how to work with custom hooks.
